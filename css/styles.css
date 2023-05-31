@@ -86,8 +86,6 @@
 
  /* ===== HEADER ===== */
 .header {
-   /* padding-top: 24px; */
-   /* padding-bottom: 24px; */
    border-bottom: 1px solid #ECECEC;
 }
  .header-container {
@@ -99,7 +97,6 @@
 .navigation {
    display: flex;
    align-items: center;
-   /* width: 520px; */
    justify-content: space-between;
 }
 
@@ -140,10 +137,6 @@
    padding-bottom: 200px;
    text-align: center;
    background-color: var(--page-background-color,black);
-}
-.hero-container {
-   /* width: 696px; */
-   /* padding: 200px 0; */
 }
 
 .hero-title {
@@ -205,17 +198,12 @@
 }
 .list-advant {
    display: flex;
-   /* justify-content: space-between; */
    gap: 30px;
 }
-/* .advant-item {
-   width: 270px;
-} */
 
 /* == Секція DOING == */
 .doing-items {
    display: flex;
-   /* justify-content: space-between; */
    gap: 30px;
 }
 
@@ -238,7 +226,6 @@
 
 .team-items {
    display: flex;
-   /* justify-content: space-between; */
    gap: 30px;
 }
 
@@ -248,9 +235,6 @@
    background-color: var(--main-background-color, white);
 }
 
-/* .team-foto { */
-   /* margin-bottom: 30px; */
-/* } */
 .team-desription {
    padding-top: 30px;
    padding-bottom: 30px;
@@ -268,7 +252,6 @@
    font-size: 16px;
    line-height: 1.19;
    text-align: center;
-   /* margin-bottom: 30px; */
    color: var(--second-text-color,grey);
 }
            /* ===== /MAIN-STUDIO ===== */
@@ -294,8 +277,8 @@
    font-style: normal;
    line-height: 1.71;
    color: var(--light-text-color, white);
-   /* margin-bottom: 9px; */
 }
+
 .link-contact-footer {
    display: block;
    font-style: normal;
@@ -345,8 +328,6 @@
 }
 
 .gallery li {
-   /* padding-bottom: 20px; */
-   /* border: 1px solid #EEEEEE; */
    flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .filter-description {
@@ -361,8 +342,6 @@
    line-height: 2;
    letter-spacing: 0.06em;
    color: var(--main-text-color,black);
-   /* margin-top: 20px; */
-   /* margin-left: 24px; */
 }
 
 .filter-type {
@@ -370,7 +349,6 @@
    line-height: 1.88;
    color: var(--second-text-color,grey);
    margin-top: 4px;
-   /* margin-left: 24px; */
 }
  
 .filter-item:hover,
